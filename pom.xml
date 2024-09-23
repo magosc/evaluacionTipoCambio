@@ -11,7 +11,7 @@
 	<groupId>com.lebq</groupId>
 	<artifactId>evaluacionTipoCambio</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>evaluacionTipoCambio</name>
 	<description>Desafio tecnico para consumo de servicio externo de tipo de cambio</description>
 	<url/>
@@ -70,6 +70,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<!-- SWAGGER -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-boot-starter</artifactId>
+			<version>3.0.0</version>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>
